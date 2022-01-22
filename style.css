@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+i{
+    font-size: 1.2rem;
+}
+
+h3 {
+    margin: 2rem;
+}
+
+.container {
+    margin: 2rem;
+    display: flex;
+    width: 30rem;
+    width: fit-content;
+    height: 3rem;
+    /* background-color: rgb(247, 181, 157); */
+    align-items: center;
+}
+
+
+
+/* Normal tab */
+ .container .container-box--normal {
+    width: 8rem;
+    justify-content: center;
+}
+
+.container-box--normal .bottom {
+    width: 8rem;
+}
+
+/* Leading icon */
+
+.container-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 10.1rem;
+    height: 3rem;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.box-icon {
+    padding-right: 1rem;
+}
+
+.js-active {
+    color: blueviolet;
+    background-color: rgb(229, 237, 240);
+    position: relative;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: blue;
+  width: 10.1rem;
+  height: 2px;
+  transition: .9s;
+}
+
+/* top icon */
+
+.container .container-box--top-icon {
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+}
+
+.container-box--top-icon .bottom {
+    width: 8rem;
+}
+
+.container-box--top-icon .box-icon {
+    padding-left: 1rem;
+    padding-bottom: 5px;
+}
